@@ -1,0 +1,111 @@
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+}
+
+/* Colors */
+
+:root {
+    --bgColor: #EDEDED;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+/* Colors */
+
+
+
+/* General Classes */
+
+.flex { display: flex; }
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexAlign {
+    display: flex;
+    align-items: center;
+}
+
+.fw700 { font-weight: 700; }
+
+.fw400 { font-weight: 400; }
+
+/* General Classes */
+
+
+
+/* **************************************** */
+
+body { justify-content: center; }
+
+.container {
+    background-color: var(--white);
+    width: 100%;
+    max-width: 700px;
+}
+
+header {
+    padding: 1.6em;
+    border-bottom: 1px solid #C6C6C6; 
+    margin-bottom: 1em;
+}
+
+section { background-color: var(--white); }
+
+.info {
+    gap: 0.7em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.post-avatar { border-radius: 50%; }
+
+.name,
+.location {
+    color: var(--black);
+}
+
+.name { font-size: 1.3rem; }
+
+.location { font-size: 1.2rem; }
+
+.post-img {
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 2em;
+}
+
+.activity {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    gap: 20px;
+}
+
+.activity img {
+    width: 32px;
+    height: 32px;
+}
+
+.likes-number {
+    font-size: 1.3rem;
+    margin-left: 1em;
+    margin-bottom: 1.24em;
+    color: var(--black);
+}
+
+.posts { gap: 2.5em; }
