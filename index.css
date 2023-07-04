@@ -109,3 +109,9 @@ section { background-color: var(--white); }
 }
 
 .posts { gap: 2.5em; }
+
+#heart-red1,
+#heart-red2,
+#heart-red3 {
+    display: none;
+}

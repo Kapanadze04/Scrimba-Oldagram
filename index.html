@@ -9,12 +9,15 @@
 <body class="flex">
     
     <div class="container">
+        <!-- Header -->
         <header class="flexBetween">
             <img class="logo" src="./assets/images/oldagram-logo.png" alt="Oldagram logo">
             <img class="header-avatar" src="./assets/images/your-avatar.png" alt="avatar">
         </header>
 
 
+
+        <!-- Posts -->
         <div class="posts flexColumn">
             <section class="flexColumn">
                 <div class="info flexAlign">
@@ -25,15 +28,17 @@
                     </div>
                 </div>
     
-                <img class="post-img" src="./assets/images/post-img1.png" alt="post img">
+                <img id="post-img-1" class="post-img" src="./assets/images/post-img1.png" alt="post img">
     
                 <div class="activity flex">
-                    <img src="./assets/images/heart-icon.svg" alt="heaart-icon">
+                    <img onclick="active1()" id="postLike-1" src="./assets/images/heart-icon.svg" alt="heaart-icon">
+                    <img onclick="active11()" id="heart-red1" src="./assets/images/heart-icon (red).svg" alt="">
+
                     <img src="./assets/images/comment-icon.svg" alt="comment-icon">
                     <img src="./assets/images/share.icon.svg" alt="share-icon">
                 </div>
     
-                <span class="likes-number fw700">0 Likes</span>
+                <span id="post1-likes" class="likes-number fw700">0 Likes</span>
             </section>
 
 
@@ -46,15 +51,17 @@
                     </div>
                 </div>
     
-                <img class="post-img" src="./assets/images/post-img2.png" alt="post img">
+                <img id="post-img-2" class="post-img" src="./assets/images/post-img2.png" alt="post img">
     
                 <div class="activity flex">
-                    <img src="./assets/images/heart-icon.svg" alt="heaart-icon">
+                    <img onclick="active2()" id="postLike-2" src="./assets/images/heart-icon.svg" alt="heaart-icon">
+                    <img onclick="active22()" id="heart-red2" src="./assets/images/heart-icon (red).svg" alt="">
+
                     <img src="./assets/images/comment-icon.svg" alt="comment-icon">
                     <img src="./assets/images/share.icon.svg" alt="share-icon">
                 </div>
     
-                <span class="likes-number fw700">0 Likes</span>
+                <span id="post2-likes" class="likes-number fw700">0 Likes</span>
             </section>
 
 
@@ -67,15 +74,17 @@
                     </div>
                 </div>
     
-                <img class="post-img" src="./assets/images/post-img3.png" alt="post img">
+                <img id="post-img-3" class="post-img" src="./assets/images/post-img3.png" alt="post img">
     
                 <div class="activity flexAlign">
-                    <img src="./assets/images/heart-icon.svg" alt="heaart-icon">
+                    <img onclick="active3()" id="postLike-3" src="./assets/images/heart-icon.svg" alt="heaart-icon">
+                    <img onclick="active33()" id="heart-red3" src="./assets/images/heart-icon (red).svg" alt="">
+
                     <img src="./assets/images/comment-icon.svg" alt="comment-icon">
                     <img src="./assets/images/share.icon.svg" alt="share-icon">
                 </div>
     
-                <span class="likes-number fw700">0 Likes</span>
+                <span id="post3-likes" class="likes-number fw700">0 Likes</span>
             </section>
         </div>
 
